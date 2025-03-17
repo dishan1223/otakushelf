@@ -6,7 +6,7 @@ const inter = Inter({
   subsets: ['latin'], // Load only necessary subsets
   variable: '--font-inter', // Optional: define CSS variable
   weight: ['400', '700'], // Optional: specify weights
-});;
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
