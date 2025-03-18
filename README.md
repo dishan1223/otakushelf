@@ -17,13 +17,12 @@
 
 </div>
 
-- Track your favorite manga and anime.
+- Track your favorite manga.
 - Discover new content from built-in online sources.
 - Sync your library across devices.
-- Customize your reading experience with various settings.
 - Open-source and community-driven development.
 
-> 📌 Pull requests are welcome
+> 📌 Pull Requests are welcome
 
 ## 🚀 Tech Stack
 
