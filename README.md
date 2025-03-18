@@ -5,8 +5,11 @@
 # OtakuShelf
 
 </div>
-
+<div align="center">
+  
 [OtakuShelf](https://github.com/dishan1223/otakushelf) is a free and open-source manga tracker with built-in online content sources.
+
+</div>
 
 <div align="center">
 
