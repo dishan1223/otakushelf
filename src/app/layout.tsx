@@ -28,7 +28,7 @@ export default function RootLayout({
     <ClerkProvider>
     <html lang="en">
       <body
-        className={`${inter.className} bg-neutral-950 text-white antialiased`}
+        className={`${inter.className} bg-gray-900 text-white antialiased`}
       >
         <div className="flex">
         <div>

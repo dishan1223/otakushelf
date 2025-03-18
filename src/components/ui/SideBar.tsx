@@ -1,3 +1,20 @@
+import Link from "next/link"
+
+const sidebarLinks = [
+    {
+        title: "Home",
+        href: "/",
+    },
+    {
+        title: "Discover",
+        href: "/discover",
+    },
+    {
+        title: "Library",
+        href: "/library",
+    },
+]
+
 export default function SideBar() {
     return (
         <div className="outline outline-white h-screen w-64 py-8">
@@ -6,10 +23,12 @@ export default function SideBar() {
             </div>
 
             <div className="mt-8">
-                <ul className="text-2xl px-4 flex flex-col gap-6">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul className="text-2xl pl-4 flex flex-col">
+                    {sidebarLinks.map((link) => (
+                        <li key={link.title} className="flex items-center h-14 hover:bg-gradient-to-r from-gray-900 to-slate-600">
+                            <Link href={link.href}>{link.title}</Link>
+                        </li>
+                    ))}
                 </ul>
             </div>
             
