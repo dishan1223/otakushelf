@@ -3,6 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import siteConfig from "@/lib/siteConfig";
+import MaxWidthContainer from "@/components/ui/MaxWidthContainer";
+import SideBar from "@/components/ui/SideBar";
+
 import { ClerkProvider } from "@clerk/nextjs";
 
 const inter = Inter({
@@ -25,9 +28,16 @@ export default function RootLayout({
     <ClerkProvider>
     <html lang="en">
       <body
-        className={`${inter.className} bg-neutral-950 text-white antialiased`}
+        className={`${inter.className} bg-gray-900 text-white antialiased`}
       >
-        {children}
+        <div className="flex">
+        <div>
+        <SideBar />
+        </div>
+        <div>
+        <MaxWidthContainer>{children}</MaxWidthContainer>
+        </div>
+        </div>
       </body>
     </html>
     </ClerkProvider>
