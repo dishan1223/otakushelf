@@ -28,8 +28,8 @@
 
 - **Frontend**: Next.js 🖥️, Tailwind CSS 🎨
 - **Authentication**: Clerk 🔐
-- **Database**: NeonDB 🗄️, Drizzle ORM 🌧️
-- **Deployment**: Netlify 🌐
+- **Database**: TBA
+- **Deployment**: TBA
 - **Version Control**: Git 🛠️, GitHub 🐙
 
 > **Disclaimer**  
