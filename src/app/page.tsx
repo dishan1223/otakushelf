@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-        hello
+            <h1 className="text-xl font-semibold">Trending Manga For You</h1>
     </div>
   );
 }
