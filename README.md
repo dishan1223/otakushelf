@@ -2,12 +2,12 @@
 
 <img src="public/images/icon.png" alt="App Icon" width="100" height="100">
 
-# OtakuShelf
+# Bookish
 
 </div>
 <div align="center">
   
-[OtakuShelf](https://github.com/dishan1223/otakushelf) is a free and open-source manga tracker with built-in online content sources.
+[Bookish](https://github.com/dishan1223/otakushelf) is a free and open-source book downloading platform where we distribute books for 0$.
 
 </div>
 
@@ -17,9 +17,7 @@
 
 </div>
 
-- Track your favorite manga.
-- Discover new content from built-in online sources.
-- Sync your library across devices.
+- Track your favorite books.
 - Open-source and community-driven development.
 
 > 📌 Pull Requests are welcome
@@ -27,7 +25,6 @@
 ## 🚀 Tech Stack
 
 - **Frontend**: Next.js 🖥️, Tailwind CSS 🎨
-- **Authentication**: Clerk 🔐
 - **Database**: TBA
 - **Deployment**: TBA
 - **Version Control**: Git 🛠️, GitHub 🐙
